@@ -1,7 +1,7 @@
-#ifndef __SUM_H__
-#define __SUM_H__
+#ifndef __MUL_H__
+#define __MUL_H__
 
-int sum(int,int);
-int sub(int,int);
+int mul(int,int);
+int div(int,int);
 
 #endif

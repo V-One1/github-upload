@@ -1,13 +1,13 @@
 #include<stdio.h>
 #include "sum.h"
-#include "mul.c"
+#include "mul.h"
 
 int main()
 {
 	int a=0,b=0;
 	int p=0,q=0,r=0,s=0;
-	scanf("%d",&a);
-	scanf("%d",&b);
+	printf("Enter a b: ");
+	scanf("%d %d",&a,&b);
 	p = sum(a,b);
 	q = sub(a,b);
 	r = mul(a,b);
